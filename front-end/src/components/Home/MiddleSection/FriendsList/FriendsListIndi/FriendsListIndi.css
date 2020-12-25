@@ -5,7 +5,7 @@
   transition: transform 1s ease-in-out;
   display: flex;
   height: 280px;
-  border-radius: 19px;
+  border-radius: 10px;
   background-color: #a6cda2;
   cursor: pointer;
 }
@@ -19,6 +19,7 @@
   width: 45%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .friendsListIndi:nth-child(even) {
@@ -32,12 +33,12 @@
 .friendsListIndi__DP .MuiAvatar-root {
   width: 100px;
   height: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.493);
 }
 
 .friendsListIndiContents {
   color: black;
   transition: 200ms all linear;
-  background-color: rgba(0, 0, 0, 0.1);
   width: 95%;
   height: 100%;
   text-align: center;
@@ -45,16 +46,16 @@
   border-top-right-radius: 15px;
 }
 
-.friendsListIndiContents:hover {
+/* .friendsListIndiContents:hover {
   background-color: rgba(0, 0, 0, 0.15);
-}
+} */
 
 .friendsList__indiName {
   font-family: "Roboto", sans-serif;
   margin: 20px;
   padding: 10px;
   font-size: 24px;
-  background: -webkit-repeating-linear-gradient(50deg, #d9ff00, #68e912 90%);
+  background: -webkit-repeating-linear-gradient(10deg, #dcfd8d, #fca58f 90%);
   background-clip: text;
   font-weight: bolder;
   -webkit-text-fill-color: transparent;
@@ -79,7 +80,7 @@
   word-wrap: break-word;
   overflow: hidden;
   font-weight: bolder;
-  line-height: 23px;
+  line-height: 25px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -90,7 +91,7 @@
   left: 35%;
   height: 28px;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.747);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 15px;
   font-family: "Lato", sans-serif;
   /* background-color: rebeccapurple; */
@@ -110,7 +111,7 @@
   font-weight: bolder;
   text-align: center;
   border-radius: 5px;
-  background: rgba(247, 241, 241, 0.781);
+  background: rgba(255, 255, 255, 0.781);
   font-size: 14px;
   /* border: 1px solid salmon; */
 }

@@ -10,7 +10,7 @@ const UserProfile = ({ searchE, username, setDisplayAs }) => {
   }, []);
 
   return (
-    <div>
+    <div className="user-profile">
       <UserHomePage profile={username} />
     </div>
   );

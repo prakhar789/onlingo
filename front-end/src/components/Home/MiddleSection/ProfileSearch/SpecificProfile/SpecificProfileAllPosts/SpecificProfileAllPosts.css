@@ -2,6 +2,8 @@
   /* width: 860px */
   margin: 25px;
   position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.153);
+  border-radius: 10px;
 }
 
 div[class^="specificProfile__allPostsIndiComments"] {

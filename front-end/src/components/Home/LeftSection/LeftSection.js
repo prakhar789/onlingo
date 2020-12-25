@@ -121,6 +121,15 @@ const LeftSection = ({
         {/* <Avatar src={profilePic} /> */}
         <div className="user_profileProfilePic">
           <img src={profilePic || defaultDP} alt="DP" />
+          <svg className="profile-pic-circle">
+            <defs>
+              <linearGradient id="gradient">
+                <stop offset="5%" stopColor="#ffa600" />
+                <stop offset="95%" stopColor="#f5280d" />
+              </linearGradient>
+            </defs>
+            <circle cx="50%" cy="50%" r="50"></circle>
+          </svg>
         </div>
         <h1>
           {userName ? (

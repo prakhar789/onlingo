@@ -25,11 +25,13 @@ const ProfileSearch = ({ username, setSearchE }) => {
   var xxx = [];
 
   xxx = Array.from(docs).filter((pro) => {
-    return (
+    if (
       pro.name.toLowerCase().includes(profile.toLowerCase()) &&
       !xxx.includes(pro) &&
       pro.username !== username
-    );
+    ) {
+      return pro;
+    }
   });
 
   xxx = [...new Set(xxx)];
@@ -84,8 +86,8 @@ const ProfileSearch = ({ username, setSearchE }) => {
           {profile ? (
             <>
               {xxx.map((doc) => {
-                if (!rendered.includes(doc)) {
-                  rendered.push(doc);
+                if (!rendered.includes(doc.username)) {
+                  rendered.push(doc.username);
 
                   return (
                     <Profile

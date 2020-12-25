@@ -77,9 +77,23 @@ export function formatLastSeen(time) {
   const year = ndate.split("/")[0];
 
   const ans = [
-    `Last seen at ${month} ${day}, ${year}`,
-    `${d.toLocaleTimeString().substring(0, 5)}`,
+    `${month} ${day}, ${year}`,
+    `${d.toLocaleTimeString().substring(0, 8)}`,
   ];
 
   return ans;
+
+  // const diff = new Date() - d
+
+  // if(diff > 86400000) {
+  //   return d.toLocaleString()
+  // }
+
+  // else {
+  //   const hours = Math.floor(diff / (1000*60*60))
+  //   const mins = Math.floor(  (diff % ( 1000 * 60 * 60 )) / 1000 * 60)
+  //   const secs = Math.floor( ((diff % 1000 * 60 * 60) % (1000  *60)) / 1000 )
+
+  //   return `${hours}H ${mins}M ${secs}`
+  // }
 }

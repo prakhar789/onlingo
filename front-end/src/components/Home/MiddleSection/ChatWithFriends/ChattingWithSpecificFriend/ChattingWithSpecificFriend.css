@@ -23,7 +23,7 @@
 }
 
 .chatsMessageInputContainer button::after {
-  top: 6px;
+  top: 8px;
   right: 6px;
   content: "";
   position: absolute;
@@ -45,19 +45,18 @@
   font-size: 17px;
   font-weight: bolder;
   padding-left: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.884);
 }
 
 .chatsMessageInputContainer input::placeholder {
   color: rgba(0, 0, 0, 0.75);
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.7px;
 }
 
 .chatsMessageInputContainer .MuiSvgIcon-root {
   color: black;
   /* margin: 10px; */
-  margin-top: 9px;
+  margin-top: 10px;
   margin-left: 0;
   position: absolute;
   left: 94.5%;
@@ -66,19 +65,19 @@
 
 .chatsMessagesContainer::-webkit-scrollbar {
   height: 0;
-  width: 8px;
-  background-color: rgba(0, 0, 0, 0.6);
+  width: 9px;
+  /* background-color: rgba(0, 0, 0, 0.6); */
   cursor: pointer;
 }
 
 .chatsMessagesContainer::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.747);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .chatsMessagesContainer__empty {
   text-align: center;
-  font-family: "Lato", sans-serif;
-  color: rgba(255, 255, 255, 0.455);
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.755);
   margin-top: 40%;
   font-size: 20px;
   text-transform: lowercase;

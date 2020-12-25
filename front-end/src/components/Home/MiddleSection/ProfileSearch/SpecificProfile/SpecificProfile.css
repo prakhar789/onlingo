@@ -197,14 +197,14 @@
 
 .profileBio {
   height: 250px;
-  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
   line-height: 35px;
   font-size: 20px;
   margin-bottom: 50px;
   margin-top: 80px;
   width: 92%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bolder;
   padding: 10px;
   white-space: pre;
@@ -246,7 +246,7 @@
 }
 
 .specificProfile__allPosts {
-  border: 1px solid rgb(236, 227, 227, 0.05);
+  border: 1px solid rgb(236, 227, 227, 0.1);
   width: 94%;
   margin: 0px;
   margin-bottom: 100px;

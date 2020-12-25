@@ -74,7 +74,7 @@ const Notifications = ({ username, searchE, setDisplayAs }) => {
                 who={noti.who}
                 at={noti.at}
                 post={noti.postID || "not"}
-                key={noti.postID}
+                key={noti.postID + Math.random().toString()}
               />
             ))}
       </div>

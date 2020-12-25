@@ -87,7 +87,7 @@ const FriendsIndiStory = ({ friend }) => {
               setStoryView(false);
             }}
           >
-            &times;
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
           </button>
           <StoryView
             story={story}

@@ -19,8 +19,8 @@
 
   .select-no-of-days {
     position: absolute;
-    top: 36%;
-    right: 40px;
+    top: 33%;
+    right: 25px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -62,7 +62,7 @@
     .avg-time {
       font-size: 40px;
       background: -webkit-repeating-linear-gradient(
-        110deg,
+        20deg,
         #d62442,
         #ebce28 80%
       );
@@ -81,9 +81,9 @@
     }
 
     .daily-avg-para {
-      font-size: 16px;
+      font-size: 18px;
       color: rgba(255, 255, 255, 0.88);
-      font-family: "Roboto", sans-serif;
+      font-family: "Lato", sans-serif;
     }
   }
 

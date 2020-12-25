@@ -13,7 +13,7 @@ const StoryCreaterForU = ({ setStoryCreater, username, uploadingStatus }) => {
   const [textSize, setTextSize] = useState("24px");
   const [textColor, setTextColor] = useState({
     webkitTextFillColor: "transparent",
-    backgroundImage: `-webkit-repeating-linear-gradient(150deg, #ffa000, #ff5000 30%`,
+    backgroundImage: `-webkit-repeating-linear-gradient(10deg, #ffa000, #ff5000 30%`,
   });
   const [textStyle, setTextStyle] = useState("Roboto");
   const [textWeight, setFontWeight] = useState("normal");
@@ -132,6 +132,21 @@ const StoryCreaterForU = ({ setStoryCreater, username, uploadingStatus }) => {
       ["4567b2", "8ab9ff"],
       ["76ad39", "cdff8a"],
       ["d62442", "ebce28"],
+      ["36d1dc", "5b86e5"],
+      ["5667dd", "5ecbf7"],
+      ["fad961", "f76b1c"],
+      ["4568dc", "b06ab3"],
+      ["d64b7d", "ee4658"],
+      ["ffe53b", "ff2525"],
+      ["21d4fd", "b721ff"],
+      ["c4e759", "6de195"],
+      ["54e3be", "41c7af"],
+      ["d4fc78", "99e5a2"],
+      ["c1e3ff", "abc7ff"],
+      ["323B42", "121317"],
+      ["fdeb82", "f78fad"],
+      ["f0eff0", "faf8f9"],
+      ["f1eef9", "f5ccf6"],
     ];
 
     const rand = bkGrads[rgbgi];
@@ -152,6 +167,21 @@ const StoryCreaterForU = ({ setStoryCreater, username, uploadingStatus }) => {
       ["4567b2", "8ab9ff"],
       ["76ad39", "cdff8a"],
       ["d62442", "ebce28"],
+      ["36d1dc", "5b86e5"],
+      ["5667dd", "5ecbf7"],
+      ["fad961", "f76b1c"],
+      ["4568dc", "b06ab3"],
+      ["d64b7d", "ee4658"],
+      ["ffe53b", "ff2525"],
+      ["21d4fd", "b721ff"],
+      ["c4e759", "6de195"],
+      ["54e3be", "41c7af"],
+      ["d4fc78", "99e5a2"],
+      ["c1e3ff", "abc7ff"],
+      ["323B42", "121317"],
+      ["fdeb82", "f78fad"],
+      ["f0eff0", "faf8f9"],
+      ["f1eef9", "f5ccf6"],
     ];
     const randomGradient = textGradients[gradTextI];
 
