@@ -1,0 +1,57 @@
+.chatListIndi {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(128, 128, 128, 0.37);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 7px 7px;
+  cursor: pointer;
+}
+
+.friendsProfilePhoto {
+  max-width: 55px;
+  max-height: 55px;
+}
+
+.friendsProfilePhoto img {
+  height: 100%;
+  min-width: 100%;
+  border-radius: 50%;
+  border: 3px solid rgba(128, 128, 128, 0.4);
+}
+
+.friendsNameAndMessage {
+  font-family: "Roboto", sans-serif;
+  margin: 2px 3%;
+  width: 100%;
+  /* background-color: rebeccapurple; */
+}
+.friendsNameAndMessage h1 {
+  font-size: 15px;
+  margin: 2px 5px;
+  width: 100%;
+}
+
+.friendsNameAndMessage p {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 2px 5px;
+  width: 100%;
+  font-family: "Lato";
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bolder;
+}
+
+.friendsNameAndMessage h2 {
+  font-size: 13px;
+  background: -webkit-repeating-linear-gradient(170deg, #ffbb00, #ff2600 60%);
+  background-clip: text;
+  font-weight: bolder;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+  font-family: "Roboto";
+  margin-left: 5px;
+  position: relative;
+}
