@@ -55,6 +55,7 @@
   margin-left: 25px;
   min-height: 20px;
   word-wrap: break-word;
+  word-break: keep-all;
   max-width: 60%;
   padding: 11px 13px;
   position: relative;
